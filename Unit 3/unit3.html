@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unit 3 Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic Gallery</h1>
+      <p> Resize the browser window to change the images</p>
+    </header>
+    <hr>
+    <main>
+      <h2>Flowers</h2>
+      <picture>
+     <source media="(min-width:769px)" srcset="images/flower1.JPG" width="200" height="200">
+     <source media="(min-width:426px)" srcset="images/flower2.jpg"width="200" height="200">
+     <source media="(min-width:321px)" srcset="images/flower3.JPG"width="200" height="200">
+    <img src="images/flower4.jpg" width="200" height="200">
+   </picture>
+      <hr>
+      <h2>Cats</h2>
+   <picture>
+     <source media="(min-width:769px)" srcset="images/cat1.jpeg" width="200" height="200">
+     <source media="(min-width:426px)" srcset="images/cat2.JPG"width="200" height="200">
+     <source media="(min-width:321px)" srcset="images/cat3.jpeg"width="200" height="200">
+    <img src="images/cat4.jpeg" width="200" height="200">
+   </picture>
+      <hr>
+      <h2>Movies</h2>
+      <picture>
+     <source media="(min-width:769px)" srcset="images/movies1.jpg" width="200" height="200">
+     <source media="(min-width:426px)" srcset="images/movies2.jpg"width="200" height="200">
+     <source media="(min-width:321px)" srcset="images/movies3.png"width="200" height="200">
+    <img src="images/movies4.webp" width="200" height="200">
+   </picture>
+      <hr>
+    </main>
+    <footer>
+      <p><i> &copy; Tori Stephens</p></i>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
