@@ -1,0 +1,31 @@
+body { 
+  background: gray;
+  width: 80%;
+  }
+p {
+  font-family:'Geneva';
+  color:dimgrey;
+  background-color:rgb(196, 196, 238);
+}
+h1 {
+  font-family:'Arial Narrow, Arial';
+  color:azure;
+  background-color:aquamarine;
+}
+h2 {
+  font-family:'Gill Sans';
+  color:teal;
+  background-color:beige
+}
+h3 {
+  font-family:'Lucida Sans';
+  color:cornflowerblue;
+  background-color:ghostwhite;
+}
+main {
+  background-color:darksalmon;
+}
+footer {
+  font-style:italic;
+  background-color:rgba(245, 203, 189, 0.938);
+}
