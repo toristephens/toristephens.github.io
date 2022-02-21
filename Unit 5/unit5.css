@@ -1,0 +1,53 @@
+body {
+  background-color: dimgrey;
+}
+h1, h2, h3 {
+  text-align: center;
+}
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color:black
+  box-shadow: 10px 10px black;
+}
+Div {
+  width: 90%;
+  margin: auto;
+}
+.itembox {
+  border: solid 2px black;
+  border-radius: 5px;
+  box-shadow: 10px 10px rgb(71, 70, 70);
+  background-color: rgb(196, 196, 238);
+  color: black;
+  padding:15px;
+}
+.favorite {
+  border: double 5px black;
+  border-radius: 5px;
+  box-shadow: 10px 10px rgb(71, 70, 70);
+  background-color: coral;
+  color: ;
+  padding:15px;
+}
+ol {
+  background:  rgb(183, 183, 223);
+  list-style-type: none;
+}
+ul { 
+  border: double 5px;
+  border-radius: 5px; 
+  list-style-type: none;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+li a { float: left}
+
+li a {
+  border-right: 1px solid #bbb;
+  display: block;
+  color: cornsilk;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
