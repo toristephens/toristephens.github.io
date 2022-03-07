@@ -1,0 +1,28 @@
+.star {
+  height: 300px;
+  width: 300px;
+}
+main {
+  background-color: midnightblue;
+  color: white;
+}
+body {
+  background-image: url("shootingstar.gif");
+  background-size: cover;
+}
+#wrapper {
+  width:60%;
+  margin: auto;
+ margin-top: 30px;  
+}
+ul{
+  list-style-image: url(heart.png)
+}
+#border1{
+  border-image: url(border.jpg)50 round;
+  border-image-width: 15px;
+}
+#border2{
+  border-image: url(border.jpg)50 round;
+  border-image-width: 15px;
+}
