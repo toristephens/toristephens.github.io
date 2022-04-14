@@ -1,0 +1,13 @@
+Table{
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+  border-collapse: collapse;
+}
+ td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+tr:nth-child(even) {
+  background-color: #CCCCCC;
+}
