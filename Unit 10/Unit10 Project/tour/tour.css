@@ -1,0 +1,18 @@
+table,th,td{
+  border:3px solid;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width:50%;
+  font-family: "Georgia";
+}
+body {
+  background-image: url("blossoms.jpg");
+  background-size: cover;
+}
+th,td{
+  padding-top:20px;
+  padding-bottom:20px;
+}
