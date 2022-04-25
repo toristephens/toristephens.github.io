@@ -1,0 +1,18 @@
+table,th,td{
+  border:1px solid;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width:25%;
+}
+th,td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body{
+  background-color:#f1c9fe;
+  Color: #2e073e;
+  font-family: "Monaco";
+}
